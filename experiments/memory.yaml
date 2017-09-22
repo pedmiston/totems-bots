@@ -1,0 +1,8 @@
+---
+
+strategy: [diachronic, synchronic]
+n_players: 2
+n_guesses: 100
+n_seeds: 50
+player_memory: [True, False]
+team_memory: [True, False]
