@@ -6,7 +6,7 @@ import yaml
 import json
 import pandas
 
-from graph import Landscape
+from graphdb import Landscape
 
 from .models import create_team
 from .strategies import strategies
