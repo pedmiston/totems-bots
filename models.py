@@ -64,6 +64,8 @@ class Player:
         self.is_memory_on = memory
         self.personal_memory = []
 
+        self.personal_inventory = set([1, 2, 3, 4, 5, 6])
+
     def guess_new(self, inventory, team_guesses=None):
         """Keep guessing until one is found that isn't in past guesses."""
         team_guesses = team_guesses or []
